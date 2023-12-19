@@ -1,5 +1,3 @@
-Certainly! Here's the Markdown with checkboxes added to all sub-elements:
-
 # DSA with Avin
 
 ### Data Structures:
