@@ -18,11 +18,41 @@ public class DoublyLinkedList {
         Node2 newNode = new Node2(data);
         if (head == null) {
             head = newNode;
-            tail = newNode;
         } else {
             tail.next = newNode;
             newNode.prev = tail;
-            tail = newNode;
         }
+        tail = newNode;
+    }
+
+    public void displayForward() {
+        Node2 current = head;
+
+        while (current != null) {
+            System.out.print(current.data + " ");
+            current = current.next;
+        }
+        System.out.println();
+    }
+
+    public void displayBackward() {
+        Node2 current = tail;
+
+        while (current != null) {
+            System.out.print(current.data + " ");
+            current = current.prev;
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        DoublyLinkedList dll = new DoublyLinkedList();
+        dll.insert(1);
+        dll.insert(2);
+        dll.insert(3);
+        dll.insert(4);
+        dll.insert(5);
+        dll.displayForward();
+        dll.displayBackward();
     }
 }
