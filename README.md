@@ -5,19 +5,19 @@ Certainly! Here's the Markdown with checkboxes added to all sub-elements:
 ### Data Structures:
 
 1. **Arrays:**
-   - [ ] Basics of arrays.
-   - [ ] Array manipulation and operations.
-   - [ ] Dynamic arrays.
+   - [x] Basics of arrays.
+   - [x] Array manipulation and operations.
+   - [x] Dynamic arrays.
 
 2. **Linked Lists:**
-   - [ ] Singly linked lists.
-   - [ ] Doubly linked lists.
-   - [ ] Circular linked lists.
+   - [x] Singly linked lists.
+   - [x] Doubly linked lists.
+   - [x] Circular linked lists.
 
 3. **Stacks and Queues:**
-   - [ ] Basic operations.
-   - [ ] Implementation using arrays and linked lists.
-   - [ ] Applications of stacks and queues.
+   - [x] Basic operations.
+   - [x] Implementation using arrays and linked lists.
+   - [x] Applications of stacks and queues.
 
 4. **Trees:**
    - [ ] Binary trees.
