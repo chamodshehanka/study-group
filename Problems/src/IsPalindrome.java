@@ -1,0 +1,23 @@
+public class IsPalindrome {
+    public boolean isPalindrome(int x) {
+        if (x < 0) return false;
+
+        int reversed = 0;
+        int temp = x;
+
+        while(temp != 0) {
+            int digit = temp % 10;
+            reversed = reversed * 10 + digit;
+            System.out.println("Digit : " + digit);
+            temp /= 10;
+        }
+
+        return  x == reversed;
+    }
+
+
+    public static void main(String[] args) {
+        IsPalindrome solution = new IsPalindrome();
+        System.out.println("Is palindrome : " + solution.isPalindrome(123));
+    }
+}

@@ -18,8 +18,8 @@
    - [x] Applications of stacks and queues.
 
 4. **Trees:**
-   - [ ] Binary trees.
-   - [ ] Binary search trees (BST).
+   - [x] Binary trees.
+   - [x] Binary search trees (BST).
    - [ ] Tree traversal (in-order, pre-order, post-order).
    - [ ] AVL trees and balancing.
 
