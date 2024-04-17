@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: avin
+  name: avin
+spec:
+  containers:
+  - image: nginx:latest
+    name: avin
+  - image: curl:latest
+    name: isuri
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always

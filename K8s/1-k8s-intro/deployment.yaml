@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: dev
+  labels:
+    app: deploy-1
+  name: deploy-1
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: deploy-1
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: deploy-1
+    spec:
+      containers:
+      - image: nginx:latest
+        name: nginx
+        ports:
+        - containerPort: 80
+        resources: {}
+status: {}
